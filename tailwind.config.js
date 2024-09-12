@@ -9,6 +9,7 @@ export default {
       colors: {
         'purple-900': '#512051',
         'purple-600': '#927B91',
+        'purple-200': '#F7F2F7',
       },
     },
   },
