@@ -20,10 +20,10 @@ Users should be able to:
 
 ## Live site
 
-🚀 []()
+🚀 [https://waquintero-ia.github.io/socialProofSection/]()
 
 ## Solution URL
-🚀 []()
+🚀 [https://www.frontendmentor.io/solutions/responsive-social-proof-section-FaVg9CAuxq]()
 
 ## Author
 
