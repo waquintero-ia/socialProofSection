@@ -3,22 +3,22 @@ import PropTypes from 'prop-types';
 const ReviewCard = ({imageProfile, name, verified, review}) =>{
   return(
     <>
-      <div className="review w-full h-[248px] bg-purple-900 rounded-[8px] pt-[40px] px-[32px] pb-[35px] flex flex-col gap-[23px] xl:h-[234px]">
-        <div className="review_title flex gap-[23px]">
+      <div className="review w-full h-248 bg-purple-900 rounded-[8px] pt-10 px-8 pb-35 flex flex-col gap-23 xl:h-234">
+        <div className="review_title flex gap-23">
           <picture>
-            <img className="w-[40px] h-[40px] rounded-full" src={imageProfile} alt={`profile image ${name}`} />
+            <img className="w-10 h-10 rounded-full" src={imageProfile} alt={`profile image ${name}`} />
           </picture>
           <div className="title_name flex flex-col">
-            <h2 className="text-white text-[17px] font-bold">
+            <h2 className="text-white text-17 font-bold">
               {name}
             </h2>
-            <p className="text-[17px] text-purple-100 leading-[100%]">
+            <p className="text-17 text-purple-100 leading-100">
               {verified}
             </p>
           </div>
         </div>
         <div className="review_description">
-          <blockquote className="text-[17px] text-white font-medium leading-[125%] tracking-tight" aria-label="Colton Smith">
+          <blockquote className="text-17 text-white font-medium leading-125 tracking-tight" aria-label="Colton Smith">
             &ldquo; 
             {review}
             &rdquo;
