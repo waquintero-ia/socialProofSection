@@ -1,7 +1,7 @@
 const Star = () =>{
   return(
     <>
-      <img src="/images/icon-star.svg" alt="orange star" />
+      <img src="./images/icon-star.svg" alt="orange star" />
     </>
   )
 }
