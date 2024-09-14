@@ -5,11 +5,11 @@ const Reviews = () =>{
   return(
     <>
       <div className="container_reviews w-full flex justify-center items-center">
-        <div className="reviews_content w-full grid grid-rows-3 gap-y-[16px] xl:grid-cols-3 xl:grid-rows-none xl:gap-x-[30px]">
+        <div className="reviews_content w-full grid grid-rows-3 gap-y-4 xl:grid-cols-3 xl:grid-rows-none xl:gap-x-30">
           {
             review.map(review => (
               <ReviewCard 
-                key={review.title} 
+                key={review.name} 
                 imageProfile={review.imageProfile}
                 name={review.name}
                 verified={review.verified}
