@@ -4,8 +4,8 @@ import RatedCard from './RatedCard'
 const Rated = () =>{
   return(
     <>
-      <div className="container_rated w-full flex justify-center items-center xl:w-[540px]">
-        <div className="content_rated w-full grid grid-rows-3 gap-y-[16px]">
+      <div className="container_rated w-full flex justify-center items-center xl:w-540">
+        <div className="content_rated w-full grid grid-rows-3 gap-y-4">
            {
              rated.map(rated => (
               <RatedCard 
