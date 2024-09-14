@@ -6,3 +6,25 @@ body {
   align-items: center;
 }
 
+@media(min-width: 1280px){
+  .content_rated > :nth-child(2){
+    margin-left: 48px;
+  }
+  
+  .content_rated > :nth-child(3){
+    margin-left: 96px;
+  }
+  
+  .reviews_content > :nth-child(1) {
+    margin-top: px;
+  }
+  
+  .reviews_content > :nth-child(2) {
+    margin-top: 16px;
+  }
+  
+  .reviews_content > :nth-child(3) {
+    margin-top: 32px;
+  }
+}
+
