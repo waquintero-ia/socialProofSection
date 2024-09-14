@@ -18,7 +18,7 @@ const ReviewCard = ({imageProfile, name, verified, review}) =>{
           </div>
         </div>
         <div className="review_description">
-          <blockquote className="text-17 text-white font-medium leading-125 tracking-tight" aria-label="Colton Smith">
+          <blockquote className="text-17 text-white font-medium leading-125 tracking-tight">
             &ldquo; 
             {review}
             &rdquo;
